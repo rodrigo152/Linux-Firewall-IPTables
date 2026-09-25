@@ -23,3 +23,7 @@ La arquitectura de red se diseñó de la siguiente manera:
        │ Cliente │        │ Cliente │
        │   01    │        │   02    │
        └─────────┘        └─────────┘
+- El laboratorio se desplegó utilizando VirtualBox con una máquina virtual de Ubuntu Server 22.04 LTS configurada con doble interfaz de red:
+
+Adaptador 1 (NAT): Conexión hacia Internet para la salida del tráfico.
+Adaptador 2 (Red Interna): Interfaz asignada para la LAN aislada (192.168.10.0/24).
